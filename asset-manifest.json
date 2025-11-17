@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.e7c811f2.css",
+    "main.js": "/landing-page/static/js/main.30b9cca4.js",
+    "static/js/453.5369f7d3.chunk.js": "/landing-page/static/js/453.5369f7d3.chunk.js",
+    "static/media/Awrite.png": "/landing-page/static/media/Awrite.f0f4b8ad24c835f95571.png",
+    "static/media/Avoice.png": "/landing-page/static/media/Avoice.7d758936cdeadf554d42.png",
+    "static/media/Atapping.png": "/landing-page/static/media/Atapping.671759644459e141de4b.png",
+    "static/media/celular-home.png": "/landing-page/static/media/celular-home.979da714848b126616d8.png",
+    "static/media/Ellipse 3.png": "/landing-page/static/media/Ellipse 3.dd1858c39e5d8703eba1.png",
+    "index.html": "/landing-page/index.html",
+    "main.e7c811f2.css.map": "/landing-page/static/css/main.e7c811f2.css.map",
+    "main.30b9cca4.js.map": "/landing-page/static/js/main.30b9cca4.js.map",
+    "453.5369f7d3.chunk.js.map": "/landing-page/static/js/453.5369f7d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7c811f2.css",
+    "static/js/main.30b9cca4.js"
+  ]
+}
