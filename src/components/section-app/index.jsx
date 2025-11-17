@@ -52,17 +52,6 @@ export default function SectionApp() {
           para idosos e pessoas com limitações motoras.
         </p>
       </div>
-
-      {/* 🔽 botão movido para fora */}
-      <div className="btnContainer">
-        <a
-          href="/TCC.pdf"
-          download
-          className="downloadButton"
-        >
-          📄 Baixar Documento do TCC
-        </a>
-      </div>
     </section>
   );
 }

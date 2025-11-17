@@ -5,10 +5,10 @@ export default function Home(){
     return(
         <main id="home" className='home'>
             <div className='text-home'>
-                <h1>AnalisAVC - Tecnologia a serviço da saúde pública</h1>
+                <h1>RecuperAVC - Tecnologia a serviço da saúde pública</h1>
                 <p>
                     Recuperar a fala. Retomar o movimento. Reconstruir a comunicação. 
-                    O AnalisAVC é um aplicativo gratuito criado para ajudar pessoas que passaram por um AVC 
+                    O RecuperAVC é um aplicativo gratuito criado para ajudar pessoas que passaram por um AVC 
                     a treinar fala, coordenação e linguagem de forma simples e acessível.
                 </p>
 

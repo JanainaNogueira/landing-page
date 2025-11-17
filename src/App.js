@@ -3,6 +3,7 @@ import Header from './components/header'
 import Home from './components/home'
 import SectionAnalises from './components/section-analises';
 import SectionApp from './components/section-app'
+import SectionCriadores from './components/section-criadores'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <SectionApp/>
       <SectionAnalises/>
+      <SectionCriadores/>
     </div>
   );
 }

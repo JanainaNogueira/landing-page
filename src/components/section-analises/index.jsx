@@ -19,7 +19,7 @@ export default function SectionAnalises(){
                     rel="noopener noreferrer"
                     className="downloadButton"
                 >
-                    Baixar o App
+                    Baixar artigo científico
                 </a>
             </div>
         </section>

@@ -16,8 +16,7 @@ export default function Header() {
         <li><a href="#home" onClick={handleLinkClick}>Home</a></li>
         <li><a href="#analises" onClick={handleLinkClick}>Sobre o Projeto</a></li>
         <li><a href="#oapp" onClick={handleLinkClick}>O App</a></li>
-        <li><a href="" onClick={handleLinkClick}>Os Criadores</a></li>
-        <li><a href="" onClick={handleLinkClick}>Apoiadores</a></li>
+        <li><a href="#criadores" onClick={handleLinkClick}>Os Criadores</a></li>
       </ul>
     </nav>
   );
