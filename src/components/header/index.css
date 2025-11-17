@@ -6,7 +6,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* ícone e menu se alinham nos cantos */
+  justify-content: center;
   background-color: rgba(217, 217, 217, 0.15);
   border-radius: 0 0 10px 10px;
   padding: 1rem 2rem;

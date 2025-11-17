@@ -113,7 +113,6 @@
     scroll-snap-align: center;
   }
 
-  /* estilo para barra de rolagem (opcional, visual mais bonito) */
   .imgAnalises::-webkit-scrollbar {
     height: 8px;
   }
