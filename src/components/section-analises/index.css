@@ -1,0 +1,161 @@
+.section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('../assets/img/Ellipse 3.png');
+  background-size: contain; /* mostra a imagem inteira */
+  background-position: center;
+  text-align: center;
+}
+
+/* título */
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* container das imagens */
+.imgAnalises {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  transition: all 0.3s ease;
+
+  max-width: none; 
+  align-self: stretch;
+}
+
+/* imagens */
+.imgAnalises img {
+  width: 25%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.imgAnalises img:hover {
+  transform: scale(1.05);
+}
+
+/* botão de download */
+.btnContainer {
+  margin-top: 2rem;
+}
+
+.downloadButton {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.downloadButton:hover {
+  background-color: #3730a3;
+  transform: scale(1.05);
+}
+
+/* ===== Responsividade ===== */
+
+/* tablets */
+@media (max-width: 1024px) {
+  .section h2 {
+    font-size: 1.8rem;
+  }
+
+  .imgAnalises img {
+    width: 30%;
+    max-width: 200px;
+  }
+}
+
+/* celulares */
+@media (max-width: 768px) {
+  .section {
+    padding: 5% 5%;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* galeria com scroll lateral */
+  .imgAnalises {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory; 
+  }
+
+  .imgAnalises img {
+    flex: 0 0 auto;
+    width: 70%;
+    max-width: 280px;
+    scroll-snap-align: center;
+  }
+
+  /* estilo para barra de rolagem (opcional, visual mais bonito) */
+  .imgAnalises::-webkit-scrollbar {
+    height: 8px;
+  }
+  .imgAnalises::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  .imgAnalises::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .downloadButton {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+/* ===== Telas muito grandes (monitores 2K e 4K) ===== */
+@media (min-width: 1600px) {
+  .section {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 4rem 6rem;
+  }
+
+  .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .imgAnalises {
+    gap: 3rem;
+    max-width: 1600px;
+  }
+
+  .imgAnalises img {
+    width: 22%;
+    max-width: 350px;
+  }
+
+  .downloadButton {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+  }
+}
